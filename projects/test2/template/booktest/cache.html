@@ -1,0 +1,7 @@
+{% extends 'booktest/base.html' %}
+{% load cache %}
+{% block content1%}
+    {% cache 600 hello %}
+    hello
+    {% endcache %}
+{% endblock content1%}

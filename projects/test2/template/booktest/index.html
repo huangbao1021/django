@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'booktest:show' '123' %}">链接一</a>
+<hr>
+奇数行显示红色，偶数行显示蓝色
+<hr>
+    {%for book in list%}
+    {% if forloop.counter|divisibleby:"2"%}
+    <li style="color: red">{{forloop.counter}}:{{book.btitle}}</li>
+    {%else%}
+    <li style="color: blue">{{forloop.counter}}:{{book.btitle}}</li>
+    {%endif%}
+    {%empty%}
+    啥也没有
+    {%endfor%}
+</body>
+</html>

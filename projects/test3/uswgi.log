@@ -1,0 +1,523 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 11:05:52 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33533 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1eb7200
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file test3/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3036)
+spawned uWSGI worker 1 (pid: 3037, cores: 2)
+spawned uWSGI worker 2 (pid: 3038, cores: 2)
+spawned uWSGI worker 3 (pid: 3039, cores: 2)
+spawned uWSGI worker 4 (pid: 3040, cores: 2)
+spawned uWSGI http 1 (pid: 3041)
+--- no python application found, check your startup logs for errors ---
+[pid: 3039|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:08:09 2018] GET /index/ => generated 21 bytes in 470 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 628 bytes} [Thu Jul 12 11:08:09 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 641 bytes} [Thu Jul 12 11:08:20 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:08:28 2018] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 11:09:32 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/5] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:09:36 2018] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/6] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:09:38 2018] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/7] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:09:42 2018] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 11:11:03 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 3037|app: -1|req: -1/8] 127.0.0.1 () {38 vars in 653 bytes} [Thu Jul 12 11:11:08 2018] GET /index/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 3041)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 3037)...
+Gracefully killing worker 2 (pid: 3038)...
+Gracefully killing worker 3 (pid: 3039)...
+Gracefully killing worker 4 (pid: 3040)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/itcast/Desktop/projects/test3
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:33533)
+running /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 11:17:31 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:45749 (port auto-assigned) fd 4
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xb6df60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 9 seconds on interpreter 0xb6df60 pid: 3036 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3036)
+spawned uWSGI worker 1 (pid: 3734, cores: 2)
+spawned uWSGI worker 2 (pid: 3735, cores: 2)
+spawned uWSGI worker 3 (pid: 3736, cores: 2)
+spawned uWSGI worker 4 (pid: 3737, cores: 2)
+spawned uWSGI http 1 (pid: 3738)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 18:17:35 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x173a170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x173a170 pid: 14730 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14730)
+spawned uWSGI worker 1 (pid: 14732, cores: 2)
+spawned uWSGI worker 2 (pid: 14733, cores: 2)
+spawned uWSGI worker 3 (pid: 14734, cores: 2)
+spawned uWSGI worker 4 (pid: 14735, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jul 12 18:35:02 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 09:53:02 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xd66170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0xd66170 pid: 3363 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3363)
+spawned uWSGI worker 1 (pid: 3365, cores: 2)
+spawned uWSGI worker 2 (pid: 3366, cores: 2)
+spawned uWSGI worker 3 (pid: 3368, cores: 2)
+spawned uWSGI worker 4 (pid: 3369, cores: 2)
+[pid: 3365|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 01:53:21 2018] GET / => generated 339 bytes in 535 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3369|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 667 bytes} [Fri Jul 13 01:53:22 2018] GET /favicon.ico => generated 2106 bytes in 33 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3366|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 01:56:33 2018] GET / => generated 375 bytes in 61 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /var/www/test3/jquery-3.3.1.min.js
+[pid: 3365|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 684 bytes} [Fri Jul 13 01:56:34 2018] GET /var/www/test3/jquery-3.3.1.min.js => generated 2172 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 01:57:30 2018] GET / => generated 338 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 3365|app: 0|req: 4/6] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 02:03:58 2018] GET / => generated 338 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 10:31:14 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xf27170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf27170 pid: 4182 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4182)
+spawned uWSGI worker 1 (pid: 4184, cores: 2)
+spawned uWSGI worker 2 (pid: 4185, cores: 2)
+spawned uWSGI worker 3 (pid: 4186, cores: 2)
+spawned uWSGI worker 4 (pid: 4187, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 10:34:28 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x220f170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x220f170 pid: 4245 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4245)
+spawned uWSGI worker 1 (pid: 4247, cores: 2)
+spawned uWSGI worker 2 (pid: 4248, cores: 2)
+spawned uWSGI worker 3 (pid: 4249, cores: 2)
+spawned uWSGI worker 4 (pid: 4250, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 10:41:03 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36831 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2445200
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2445200 pid: 4290 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4290)
+spawned uWSGI worker 1 (pid: 4292, cores: 2)
+spawned uWSGI worker 2 (pid: 4293, cores: 2)
+spawned uWSGI worker 3 (pid: 4294, cores: 2)
+spawned uWSGI worker 4 (pid: 4295, cores: 2)
+spawned uWSGI http 1 (pid: 4296)
+[pid: 4294|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 605 bytes} [Fri Jul 13 02:41:16 2018] GET / => generated 339 bytes in 70 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /static/booktest/jquery-3.3.1.min.js
+[pid: 4293|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 618 bytes} [Fri Jul 13 02:41:16 2018] GET /static/booktest/jquery-3.3.1.min.js => generated 2183 bytes in 41 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/booktest/timg.jpg
+Not Found: /static/booktest/jquery-3.3.1.min.js
+[pid: 4292|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 596 bytes} [Fri Jul 13 02:41:16 2018] GET /static/booktest/timg.jpg => generated 2150 bytes in 59 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4295|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 618 bytes} [Fri Jul 13 02:41:16 2018] GET /static/booktest/jquery-3.3.1.min.js => generated 2183 bytes in 52 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/booktest/timg.jpg
+[pid: 4294|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 596 bytes} [Fri Jul 13 02:41:16 2018] GET /static/booktest/timg.jpg => generated 2150 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4294|app: 0|req: 3/6] 127.0.0.1 () {38 vars in 641 bytes} [Fri Jul 13 02:41:23 2018] GET / => generated 339 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /static/booktest/jquery-3.3.1.min.js
+[pid: 4292|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 654 bytes} [Fri Jul 13 02:41:23 2018] GET /static/booktest/jquery-3.3.1.min.js => generated 2183 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /static/booktest/timg.jpg
+[pid: 4292|app: 0|req: 3/8] 127.0.0.1 () {38 vars in 632 bytes} [Fri Jul 13 02:41:23 2018] GET /static/booktest/timg.jpg => generated 2150 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4294|app: 0|req: 4/9] 127.0.0.1 () {36 vars in 628 bytes} [Fri Jul 13 02:41:23 2018] GET /favicon.ico => generated 2111 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4296)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 10:56:43 2018] ***
+compiled with version: 5.4.0 20160609 on 12 July 2018 02:53:25
+os: Linux-4.13.0-37-generic #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/itcast/Desktop/projects/test3
+writing pidfile to uwsgi.pid
+detected binary path: /home/itcast/.virtualenvs/Django_01/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/itcast/Desktop/projects/test3
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xa47180
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa47180 pid: 4607 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4607)
+spawned uWSGI worker 1 (pid: 4609, cores: 2)
+spawned uWSGI worker 2 (pid: 4610, cores: 2)
+spawned uWSGI worker 3 (pid: 4611, cores: 2)
+spawned uWSGI worker 4 (pid: 4612, cores: 2)
+[pid: 4610|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 02:56:47 2018] GET / => generated 339 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4609|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 03:01:06 2018] GET / => generated 339 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4611|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 680 bytes} [Fri Jul 13 03:01:21 2018] GET / => generated 339 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4612|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 667 bytes} [Fri Jul 13 03:01:21 2018] GET /favicon.ico => generated 2106 bytes in 47 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4610|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 711 bytes} [Fri Jul 13 03:01:35 2018] GET / => generated 339 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
